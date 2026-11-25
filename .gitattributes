@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.{bat,cmd,ps1} text eol=crlf
+*.png binary
+*.ico binary
+*.icns binary
+packages/protocol-ts/src/generated/** linguist-generated=true

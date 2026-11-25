@@ -1,0 +1,10 @@
+Lyra
+Copyright 2026 The Lyra Authors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Third-party code copied into this repository is listed below with its origin and licence. Each copied file
+keeps its original copyright header. Dependencies pulled in by package managers are listed in the generated
+SBOM for each release and are not repeated here.
+
+(none yet)

@@ -1,0 +1,26 @@
+# Rust
+/target/
+**/*.rs.bk
+# Node
+node_modules/
+.pnpm-store/
+dist/
+out/
+coverage/
+# Mutation testing / coverage outputs
+mutants.out*/
+lcov.info
+*.profraw
+# Local session state and tooling
+STATE.md
+.claude/settings.local.json
+.claude/*.lock
+.env
+.env.*
+!.env.example
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json

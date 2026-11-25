@@ -1,0 +1,8 @@
+# Default owner for everything. Security-critical paths are listed explicitly so they stay owned as more people join.
+*                       @thehenrylabsdev
+/crates/lyra-vault/     @thehenrylabsdev
+/crates/lyra-peer/      @thehenrylabsdev
+/crates/lyra-policy/    @thehenrylabsdev
+/crates/lyra-sandbox/   @thehenrylabsdev
+/crates/lyra-egress/    @thehenrylabsdev
+/.github/workflows/     @thehenrylabsdev

@@ -1,0 +1,22 @@
+name: Bug report
+description: Something does not work as specified
+labels: ["type:bug"]
+body:
+  - type: textarea
+    id: what
+    attributes: { label: What happened, description: "Expected vs actual behaviour" }
+    validations: { required: true }
+  - type: textarea
+    id: repro
+    attributes: { label: Steps to reproduce }
+    validations: { required: true }
+  - type: input
+    id: os
+    attributes: { label: OS and version, placeholder: "e.g. Windows 11 25H2 26200.9550" }
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes: { label: Lyra version or commit }
+  - type: markdown
+    attributes:
+      value: "Never paste API keys, tokens or logs that contain them."

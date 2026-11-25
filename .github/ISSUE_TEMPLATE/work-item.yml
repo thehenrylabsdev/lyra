@@ -1,0 +1,11 @@
+name: Work item (maintainers)
+description: Epic, story, task or subtask from docs/plan/ROADMAP.md
+body:
+  - type: input
+    id: id
+    attributes: { label: Plan id, placeholder: "E1.2.1.a" }
+    validations: { required: true }
+  - type: textarea
+    id: scope
+    attributes: { label: Scope and acceptance criteria }
+    validations: { required: true }
