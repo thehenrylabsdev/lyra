@@ -64,7 +64,7 @@ Qwen3.8-27B endpoint (`docs/design/spikes.md`). No paid code signing until the o
   - [x] E0.1.2.c Labels, plus a milestone and an issue for each epic (stories and subtasks get issues when their epic starts).
 
 ### E0.2 Docs CI
-- [ ] E0.2.1.a `docs.yml`: Markdown link check, gitleaks, actionlint + zizmor on workflows (SHA-pinned actions,
+- [x] E0.2.1.a `docs.yml`: Markdown link check, gitleaks, actionlint + zizmor on workflows (SHA-pinned actions,
   read-only token). Becomes a required check.
 
 **E0 exit:** `main` is protected, and every PR runs the docs and secret checks.
