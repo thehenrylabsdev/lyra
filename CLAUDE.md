@@ -35,7 +35,7 @@ helper or util file when one exists. Extend the existing one, or move it in a de
 ```
 lyra/
   CLAUDE.md  AGENTS.md  README.md  LICENSE  NOTICE  CONTRIBUTING.md  SECURITY.md  CODE_OF_CONDUCT.md   present
-  .github/                      issue/PR templates, CODEOWNERS (present); workflows (planned [E0.2])
+  .github/                      issue/PR templates, CODEOWNERS; workflows/docs.yml (links, secrets, public-content, workflows)   present
   docs/design/ docs/adr/ docs/plan/                                                   present
   docs/spikes/                  spike reports                                         planned [first spike]
   Cargo.toml rust-toolchain.toml deny.toml rustfmt.toml .cargo/                       planned [E2.0.1.a]
